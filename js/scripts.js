@@ -47,6 +47,7 @@
   $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
 
+// Entering and exiting words code
 var words = document.getElementsByClassName('word');
 var wordArray = [];
 var currentWord = 0;
